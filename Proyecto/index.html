@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prelude Trabajo 34</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <style>
+        /* 5º Seccion */
+        button {
+            border-radius: 7px;
+        }
+
+        .verdeBox:not() {
+            border-radius: 6px;
+        }
+
+        .botonMorado2 {
+            color: white;
+            border: 1px solid var(--colorMorado);
+            background-color: var(--colorMorado);
+            padding: 13px 30px;
+            font-weight: bold;
+        }
+
+        /* 6º Seccion */
+        #gridGrande {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        #gridFalso {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        /* Footer */
+        .medio {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .tituloMedio2 {
+            font-size: 42px;
+            margin: 0;
+            font-weight: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="colorFondo1">
+        <div class="sectionPeque">
+            <div class="primeraLinea">
+                <div class="primeraIzquierda">
+                    <span class="linea">+1 212 946 2700</span>
+                    <a class="linea" href="#">Help Center</a>
+                    <a class="linea" href="#">Docs</a>
+                </div>
+                <div class="primeraDerecha">
+                    <a class="derechaLinea" href="#"><img class="logos" src="Imagenes/Logos/facebook.png"
+                            alt="Facebook"></a>
+                    <a class="derechaLinea" href="#"><img class="logos" src="Imagenes/Logos/twitter.png"
+                            alt="Twitter"></a>
+                    <a class="derechaLinea" href="#"><img class="logos" src="Imagenes/Logos/instagram.png"
+                            alt="Instagram"></a>
+                    <a class="derechaLinea" href="#"><img class="logos" src="Imagenes/Logos/dribbble.png"
+                            alt="Dribbble"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="segundaLinea">
+        <div class="titulo">
+            <img src="Imagenes/Logos/logoPatos.png" alt="">
+            <a href="#"><img class="logoPrincipal" src="Imagenes/Logos/logoPrelude.png" alt="LogoPrelude"></a>
+            <h1 class="tituloPrincipalP">PRELUDE</h1>
+        </div>
+        <nav>
+            <a class="linea" href="index.html">Home</a>
+            <a class="linea" href="contacto.html">Contacto</a>
+            <a class="linea" href="detalle_noticias_articulos.html">Detalle articulos</a>
+            <a class="linea" href="galeria_de_imagenes.html">Galeria</a>
+            <a class="linea" href="listado_noticias_articulos.html">Listado noticia</a>
+            <a class="linea" href="mapeado_de_la_web.html">Site web</a>
+        </nav>
+        <div class="logosDerecha">
+            <span id="fixed">2</span>
+            <a href="#"><img class="logos" src="Imagenes/Logos/shopbag.png" alt="Buzon"></a>
+            <a href="#"><img class="logos" src="Imagenes/Logos/lupa.png" alt="Lupa"></a>
+            <a class="verdeBox" href="#">Contact Us</a>
+        </div>
+    </div>
+    <main>
+        <section class="colorFondo1">
+            <div class="sectionPeque espacioArriba">
+                <div class="primerSection">
+                    <div class="contenidoPrimerSection">
+                         <!-- Imagen SVG -->
+                        <svg width="220" height="145">
+                            <rect x="5" y="20" rx="20" ry="20" width="121" height="121"
+                                style="fill:#01d85f;stroke:#7633f1;stroke-width:1;"/>
+                            <text fill="#f7f4fb" font-size="40" font-family="Verdana" 
+                            x="28" y="96">H.M
+                            </text>
+                        </svg>
+                        <h2>Driving meaningful change through technology & design</h2>
+                        <p>Crafting delightful experences through meticulous attention to detail. We help our clients
+                            reach their full potential through serving as the management team</p>
+                        <div style="display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 30%;">
+                            <div><a href="#">Latest Projects</a></div>
+                            <div><a class="verde" href="#">Watch Reel</a></div>
+                            <div><a href="#"><img src="Imagenes/flechaVerdeDerecha.png" alt="FlechaDerecha"></a></div>
+                        </div>
+                        <a href="#"><img src="Imagenes/fechaNegraAbajo.png" alt="FlechaAbajo"></a>
+                    </div>
+                    <div>
+                        <a href="#"><img id="chicaPrincipal" src="Imagenes/chicaPrincipal.png" alt="ChicaPrincipal"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="tituloInvisible">Titulo 2</h2>
+            <div class="dividir">
+                <div class="tresGrid">
+                    <article class="estiloTresGrid" id="grid_UxDesign">
+                        <a href="#"><img src="Imagenes/Logos/uxDesign.png" alt="UxDesign"></a>
+                        <h3>UX Design</h3>
+                        <p class="gris">Our collaborative approach builds brands and apps worth talking about</p>
+                        <a href="#"><img class="derechaFlecha" src="Imagenes/flechaVerdeDerecha.png"
+                                alt="FlechaDerecha"></a>
+                    </article>
+                    <article class="estiloTresGrid" id="grid_developement">
+                        <a href="#"><img src="Imagenes/Logos/development.png" alt="Development"></a>
+                        <h3>Development</h3>
+                        <p class="gris">Our collaborative approach builds brands and apps worth talking about</p>
+                        <a href="#"><img class="derechaFlecha" src="Imagenes/flechaVerdeDerecha.png"
+                                alt="FlechaDerecha"></a>
+                    </article>
+                    <article class="estiloTresGrid" id="grid_branding">
+                        <a href="#"><img src="Imagenes/Logos/branding.png" alt="Branding"></a>
+                        <h3>Branding</h3>
+                        <p class="gris">Our collaborative approach builds brands and apps worth talking about</p>
+                        <a href="#"><img class="derechaFlecha" src="Imagenes/flechaVerdeDerecha.png"
+                                alt="FlechaDerecha"></a>
+                    </article>
+                </div>
+                <article id="derechaCentro">
+                    <p class="verde">couting-edge- brand experences for companies</p>
+                    <h3 class="tituloMedio"><strong>Digital creators</strong> & Strategists</h3>
+                    <p class="gris">We value our craft, have a deep passion for progression, and exit to slove
+                        challenges for
+                        brands
+                        we believe in. Since the beginning, our mission has been to do great work and to have a
+                        great
+                        time doing it.</p>
+                    <p class="gris">Webelieve our mission has guided us well. We build valuable brand and digital
+                        experences that
+                        peaple love.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="espacioArriba">
+            <h2 class="tituloInvisible">Titulo 2</h2>
+            <div class="iconografia">
+                <img src="Imagenes/Logos/nc.png" alt="Nordcold">
+                <img src="Imagenes/Logos/goldenGrid.png" alt="Goldengrid">
+                <img src="Imagenes/Logos/bullseye.png" alt="Bullseye">
+                <img src="Imagenes/Logos/ideabox.png" alt="Ideabox">
+            </div>
+            <div class="dividir">
+                <div id="gridDosColumnas">
+                    <p class="colorMorado">we are a future-oriented hybrid agency</p>
+                    <h2 class="tituloMedio"><strong>Creative studio</strong> & Technology</h2>
+                    <div id="flexDos">
+                        <article>
+                            <span class="grande">20 <span class="colorMorado">+</span></span>
+                            <h3>Launched startups</h3>
+                            <p>We specialise in designing and developing</p>
+                        </article>
+                        <article>
+                            <span class="grande">1.1 <span class="colorMorado">k</span></span>
+                            <h3>Completed Projects</h3>
+                            <p>We specialise in designing and developing</p>
+                        </article>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <!-- <img id="videoFalso" src="Imagenes/video.jpg"></img> -->
+                    <video width="100%"  controls>
+                        <source src="Video/bienevenidos a prelude.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section class="colorFondo1">
+            <div class="espacioArriba" id="centrar">
+                <h2 style="font-size: 22px;">Crafting delightful experences through meticulous attention</h2>
+                <p>Our ethos is to constantly challenge he status quo and shape industry-redenfining solutions in a
+                    tight-knit collaboration with our customers.</p>
+            </div>
+            <div class="espacioArriba dividirGrande">
+                <div id="paginaEjemploTamanio">
+                    <a href="#"><img src="Imagenes/paginaEjemplo.jpg" width="90%" alt="PaginaEjemplo"></a>
+                </div>
+                <div id="pequeListaTres">
+                    <ul id="listaTres">
+                        <li class="colorMorado">Strategy & Branding</li>
+                        <li>Digital & Development</li>
+                        <li>Studio & Stories</li>
+                    </ul>
+                    <div id="textoLista">
+                        <article>
+                            <h3>Creating strong imagery </h3>
+                            <p class="gris">Everything begins with an idea. We pair vision with insight to sharpen
+                                brands' cores into
+                                crystal-clear strategies. We specialise in creative direction for ambitious brands. Our
+                                collaborative approach builds brands worth talking about. </p>
+                            <p class="gris">We make things happen. We use technology to create services and experiences
+                                that are not
+                                only beautiful and usable but also boundary-breaking and fruitful. </p>
+                            <button class="botonMorado">Learn More</button>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dividir espacioArriba flexDirection">
+            <div id="justificacionIzq">
+                <h2 class="tituloInvisible">Titulo 2</h2>
+                <article>
+                    <p class="verde" style="font-size: 14px; ;">WE ARE A CREATIVE FOUNDED IN NYC</p>
+                    <h3 class="tituloMedio"><strong>We specialize in</strong> building brans</h3>
+                    <p class="gris" id="masEspacio">We treat branding, design & marketing as fundamentally linked &
+                        create brand
+                        experences that feel
+                        familiar yet new. They have to resonate.</p>
+                    <button class="botonMorado2">Our Work</button>
+                </article>
+            </div>
+
+            <article class="gridNumeros">
+                <div id="customers">
+                    <p class="colorMorado tamanyoNum">120</p>
+                    <p class="gris">Customers</p>
+                </div>
+                <div id="offices">
+                    <p class="tamanyoNum" style="color: #ff7251;">8+</p>
+                    <p class="gris">Offices</p>
+                </div>
+                <div id="projects">
+                    <p class="tamanyoNum" style="color: #fec900;">2k</p>
+                    <p class="gris">Projects</p>
+                </div>
+                <div id="workers">
+                    <p class="tamanyoNum" style="color: #36b4dd;">40</p>
+                    <p class="gris">Workers</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="colorFondo1 espacioArriba">
+            <div class="sectionPeque">
+                <div id="gridFalso">
+                    <div>
+                    </div>
+                    <div id="tituloGrid">
+                        <p class="colorMorado" style="font-size: 14px;">WITH KNOWLEDGE HEART & PASSION</p>
+                        <h2 class="tituloMedio"><strong>We build brands</strong> for a digital world</h2>
+                    </div>
+                </div>
+                <div id="gridGrande">
+                    <article class="izquierdaGrid">
+                        <figure>
+                            <a href="#"><img src="Imagenes/SEOProjectManagment.jpg" alt="Marketing"></a>
+                        </figure>
+                        <div style="width: 54%;">
+                            <div class="dividirVerde">
+                                <div class="lineaVerde"></div>
+                                <div>
+                                    <p class="parrafoSinMargen">Marketing</p>
+                                    <h3 class="tituloSinMargen">SEO Project Management Tool</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="derechaGrid">
+                        <figure>
+                            <a href="#"><img src="Imagenes/desktopSignUp.jpg" alt="UI Design"></a>
+                        </figure>
+                        <div style="width: 54%;">
+                            <div class="dividirVerde">
+                                <div class="lineaVerde"></div>
+                                <div>
+                                    <p class="parrafoSinMargen">UI Design</p>
+                                    <h3 class="tituloSinMargen">Desktop Sign Up Flow</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="izquierdaGrid">
+                        <figure>
+                            <a href="#"><img src="Imagenes/developersWorkingHard.jpg" alt="UI Design"></a>
+                        </figure>
+                        <div style="width: 54%;">
+                            <div class="dividirVerde">
+                                <div class="lineaVerde"></div>
+                                <div>
+                                    <p class="parrafoSinMargen">UI Design</p>
+                                    <h3 class="tituloSinMargen">Developers Woking Hard</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="derechaGrid ">
+                        <figure>
+                            <a href="#"><img src="Imagenes/coinViewCrypto.jpg" alt="Marketing"></a>
+                        </figure>
+                        <div style="width: 54%;">
+                            <div class="dividirVerde">
+                                <div class="lineaVerde"></div>
+                                <div>
+                                    <p class="parrafoSinMargen">Application</p>
+                                    <h3 class="tituloSinMargen">Coin View Crypto App</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="espacioArriba">
+            <div id="cuadroMorado">
+                <p>LET'S GET STARTED YOUR PROJECT WITH PROFESSIONAL WAY</p>
+                <h2 class="tituloCaja"><strong>Get in touch</strong> and let us know how we can help</h2>
+                <button class="verdeBox">Get Started</button>
+            </div>
+        </section>
+
+        <section class="espacioArriba">
+            <div class="medio">
+                <p class="verde">LATEST NEWS</p>
+                <h2 class="tituloMedio2"><strong>Our insights</strong> & creative ideas</h2>
+            </div>
+            <div id="gridNoticias" class="espacioArriba">
+                <article id="thomas" class="noticias">
+                    <h3 class="tituloNoticia">A simple SEO audit guide for your online business and website</h3>
+                    <p>What's an SEO audit, what does it include, and what should you expect when
+                        outsourcing this task?
+                    </p>
+                    <div class="flexNoticias">
+                        <div>
+                            <a href="#"><img src="Imagenes/Logos/thomas.JPG" alt="Persona1"></a>
+                        </div>
+                        <div class="textoAjustado">
+                            <span>THOMAS SMITH</span>
+                            <span class="gris">30 August 2019</span>
+                        </div>
+                    </div>
+                    <div class="desplazamientoFlechas">
+                        <a href="#"><img src="Imagenes/flechaVerdeDerecha.png" alt="FlechaDerecha"></a>
+                    </div>
+                </article>
+                <article id="stella" class="noticias">
+                    <h3 class="tituloNoticia soloFlechaGris">The five commandments of SEO and JavaScript for beginners
+                    </h3>
+                    <div class="flexNoticias">
+                        <div>
+                            <a href="#"><img src="Imagenes/Logos/stella.JPG" alt="Persona2"></a>
+                        </div>
+                        <div class="textoAjustado">
+                            <span>STELLA SMITH</span>
+                            <span class="gris">27 August 2019</span>
+                        </div>
+                    </div>
+                    <div class="desplazamientoFlechas">
+                        <a href="#"><img src="Imagenes/flechaDerechaGris.JPG" alt="FlechaDerecha"></a>
+                    </div>
+                </article>
+                <article id="monica" class="noticias">
+                    <h3 class="tituloNoticia soloFlechaGris">Digital influence: Web design's impact on marketing
+                        strategy</h3>
+                    <div class="flexNoticias">
+                        <div>
+                            <a href="#"><img src="Imagenes/Logos/monica.JPG" alt="Persona3"></a>
+                        </div>
+                        <div class="textoAjustado">
+                            <span>MONICA SMITH</span>
+                            <span class="gris">23 August 2019</span>
+                        </div>
+                    </div>
+                    <div class="desplazamientoFlechas">
+                        <a href="#"><img src="Imagenes/flechaDerechaGris.JPG" alt="FlechaDerecha"></a>
+                    </div>
+                </article>
+                <article id="ernest" class="noticias" style="opacity: 0.4;">
+                    <h3 class="tituloNoticia soloFlechaGris">Mobile app UI design trips and trends to follow in 2020
+                    </h3>
+                    <div class="flexNoticias">
+                        <div>
+                            <a href="#"><img src="Imagenes/Logos/ernest.JPG" alt="Persona4"></a>
+                        </div>
+                        <div class="textoAjustado">
+                            <span>ERNEST SMITH</span>
+                            <span class="gris">07 August 2019</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div id="botonMedio" class="espacioArriba">
+                <button class="botonMorado">View All Posts</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="colorFondo1 espacioArriba">
+        <div class="sectionPeque">
+            <section>
+                <h2 class="tituloInvisible">Titulo vacio</h2>
+                <div id="gridFinal">
+                    <article>
+                        <div class="titulo">
+                            <a href="#"><img class="logoPrincipal" src="Imagenes/Logos/logoPrelude.png"
+                                    alt="LogoPrelude"></a>
+                            <h3 class="tituloPrincipalP">PRELUDE</h3>
+                        </div>
+                        <div class="espacioFooter">
+                            <span class="gris">We are a creative studio founded in NYC.</span>
+                            <span class="gris">We build brands & digital experiences</span>
+                        </div>
+                        <div class="espacioFooter">
+                            <a href="#"><img class="logos bolaVerde" src="Imagenes/Logos/facebook.png"
+                                    alt="Facebook"></a>
+                            <a href="#"><img class="logos bolaGris" src="Imagenes/Logos/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img class="logos bolaGris" src="Imagenes/Logos/instagram.png"
+                                    alt="Instagram"></a>
+                        </div>
+                    </article>
+                    <article>
+                        <h3 style="margin-left: 40px; font-weight: 400;">About</h3>
+                        <ul>
+                            <li><a class="verde" id="bordeVerde" href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3 style="margin-left: 40px; font-weight: 400;">Products</h3>
+                        <ul>
+                            <li><a href="#">Plataform</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Pircing</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3 style="margin-left: 40px; font-weight: 400;">Resources</h3>
+                        <ul>
+                            <li><a href="#">Training</a></li>
+                            <li><a href="#">Marketplace</a></li>
+                            <li><a href="#">Experts</a></li>
+                            <li><a href="#">Guides</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h3 style="font-weight: 400;">Offices</h3>
+                        <div class="espacioFooter footer-dir">
+                            <span class="gris">New York. 112 W 34th St,</span>
+                            <span class="gris">Manhattan. USA.</span>
+                            <span>(1) 212-946-2707</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <audio controls autoplay muted>
+                <source src="Audio/TresCanciones.mp3" type="audio/mpeg">
+            </audio>
+            <div id="displeyFinal">
+                <span class="gris">©2019 Prelude by Viworx-Co. All Right Reserved.</span>
+                <span class="gris">Terms of use | Privacy policy</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
