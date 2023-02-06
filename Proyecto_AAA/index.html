@@ -55,10 +55,11 @@
 </head>
 
 <body>
-    <header class="colorFondo1">
-        <div class="sectionPeque">
+    <header role="banner" aria-label="Header" class="colorFondo1">
+        <div  class="sectionPeque">
             <div class="primeraLinea">
                 <div class="primeraIzquierda">
+                    <a class="linea" href="#contenido">Contenido</a>
                     <span class="linea">+1 212 946 2700</span>
                     <a class="linea" href="#">Help Center</a>
                     <a class="linea" href="#">Docs</a>
@@ -77,8 +78,8 @@
         </div>
     </header>
     <div class="segundaLinea">
-        <div class="titulo">
-            <img src="Imagenes/Logos/logoPatos.png" alt="">
+        <div role="banner" aria-label="PRELUDE" class="titulo">
+            <img role="presentation" instead of role="img" src="Imagenes/Logos/logoPatos.png" alt="logoPatos">
             <a href="#"><img class="logoPrincipal" src="Imagenes/Logos/logoPrelude.png" alt="LogoPrelude"></a>
             <h1 class="tituloPrincipalP">PRELUDE</h1>
         </div>
@@ -90,11 +91,11 @@
             <a class="linea" href="listado_noticias_articulos.html">Listado noticia</a>
             <a class="linea" href="mapeado_de_la_web.html">Site web</a>
         </nav>
-        <div class="logosDerecha">
+        <div role="banner" aria-label="logos Derecha" class="logosDerecha">
             <span id="fixed">2</span>
-            <a href="#"><img class="logos" src="Imagenes/Logos/shopbag.png" alt="Buzon"></a>
-            <a href="#"><img class="logos" src="Imagenes/Logos/lupa.png" alt="Lupa"></a>
-            <a class="verdeBox" href="#">Contact Us</a>
+            <a href="buzon"><img class="logos" src="Imagenes/Logos/shopbag.png" alt="Buzon"></a>
+            <a class="verdeBox"  href="lupa"><img class="logos" src="Imagenes/Logos/lupa.png" 
+               alt="Lupa" href="lupa">Contact Us</a>
         </div>
     </div>
     <main>
@@ -130,24 +131,24 @@
             </div>
         </section>
         <section>
-            <h2 class="tituloInvisible">Titulo 2</h2>
+            <h2  id="contenido" class="tituloInvisible">Titulo 2</h2>
             <div class="dividir">
                 <div class="tresGrid">
-                    <article class="estiloTresGrid" id="grid_UxDesign">
+                    <article aria-label="UxDesign" class="estiloTresGrid" id="grid_UxDesign">
                         <a href="#"><img src="Imagenes/Logos/uxDesign.png" alt="UxDesign"></a>
                         <h3>UX Design</h3>
                         <p class="gris">Our collaborative approach builds brands and apps worth talking about</p>
                         <a href="#"><img class="derechaFlecha" src="Imagenes/flechaVerdeDerecha.png"
                                 alt="FlechaDerecha"></a>
                     </article>
-                    <article class="estiloTresGrid" id="grid_developement">
+                    <article aria-label="Development" class="estiloTresGrid" id="grid_developement">
                         <a href="#"><img src="Imagenes/Logos/development.png" alt="Development"></a>
                         <h3>Development</h3>
                         <p class="gris">Our collaborative approach builds brands and apps worth talking about</p>
                         <a href="#"><img class="derechaFlecha" src="Imagenes/flechaVerdeDerecha.png"
                                 alt="FlechaDerecha"></a>
                     </article>
-                    <article class="estiloTresGrid" id="grid_branding">
+                    <article aria-label="Branding" class="estiloTresGrid" id="grid_branding">
                         <a href="#"><img src="Imagenes/Logos/branding.png" alt="Branding"></a>
                         <h3>Branding</h3>
                         <p class="gris">Our collaborative approach builds brands and apps worth talking about</p>
@@ -155,7 +156,7 @@
                                 alt="FlechaDerecha"></a>
                     </article>
                 </div>
-                <article id="derechaCentro">
+                <article aria-label="Digital Creatos" id="derechaCentro">
                     <p class="verde">couting-edge- brand experences for companies</p>
                     <h3 class="tituloMedio"><strong>Digital creators</strong> & Strategists</h3>
                     <p class="gris">We value our craft, have a deep passion for progression, and exit to slove
@@ -184,12 +185,12 @@
                     <p class="colorMorado">we are a future-oriented hybrid agency</p>
                     <h2 class="tituloMedio"><strong>Creative studio</strong> & Technology</h2>
                     <div id="flexDos">
-                        <article>
+                        <article aria-label="Launched startups">
                             <span class="grande">20 <span class="colorMorado">+</span></span>
                             <h3>Launched startups</h3>
                             <p>We specialise in designing and developing</p>
                         </article>
-                        <article>
+                        <article aria-label="Completed Projects">
                             <span class="grande">1.1 <span class="colorMorado">k</span></span>
                             <h3>Completed Projects</h3>
                             <p>We specialise in designing and developing</p>
@@ -222,8 +223,8 @@
                         <li>Studio & Stories</li>
                     </ul>
                     <div id="textoLista">
-                        <article>
-                            <h3>Creating strong imagery </h3>
+                        <article aria-label="Creating strong imagery">
+                            <h3>Creating strong imagery</h3>
                             <p class="gris">Everything begins with an idea. We pair vision with insight to sharpen
                                 brands' cores into
                                 crystal-clear strategies. We specialise in creative direction for ambitious brands. Our
@@ -241,7 +242,7 @@
         <section class="dividir espacioArriba flexDirection">
             <div id="justificacionIzq">
                 <h2 class="tituloInvisible">Titulo 2</h2>
-                <article>
+                <article aria-label="WE ARE A CREATIVE FOUNDED IN NYC">
                     <p class="verde" style="font-size: 14px; ;">WE ARE A CREATIVE FOUNDED IN NYC</p>
                     <h3 class="tituloMedio"><strong>We specialize in</strong> building brans</h3>
                     <p class="gris" id="masEspacio">We treat branding, design & marketing as fundamentally linked &
@@ -252,21 +253,21 @@
                 </article>
             </div>
 
-            <article class="gridNumeros">
+            <article aria-label="Customers" class="gridNumeros">
                 <div id="customers">
                     <p class="colorMorado tamanyoNum">120</p>
                     <p class="gris">Customers</p>
                 </div>
                 <div id="offices">
-                    <p class="tamanyoNum" style="color: #ff7251;">8+</p>
+                    <p class="tamanyoNum" style="color: #CD3D1B;">8+</p>
                     <p class="gris">Offices</p>
                 </div>
                 <div id="projects">
-                    <p class="tamanyoNum" style="color: #fec900;">2k</p>
+                    <p class="tamanyoNum" style="color: #7B6718;">2k</p>
                     <p class="gris">Projects</p>
                 </div>
                 <div id="workers">
-                    <p class="tamanyoNum" style="color: #36b4dd;">40</p>
+                    <p class="tamanyoNum" style="color: #1F718C;">40</p>
                     <p class="gris">Workers</p>
                 </div>
             </article>
@@ -283,7 +284,7 @@
                     </div>
                 </div>
                 <div id="gridGrande">
-                    <article class="izquierdaGrid">
+                    <article aria-label="Marketing" class="izquierdaGrid">
                         <figure>
                             <a href="#"><img src="Imagenes/SEOProjectManagment.jpg" alt="Marketing"></a>
                         </figure>
@@ -297,7 +298,7 @@
                             </div>
                         </div>
                     </article>
-                    <article class="derechaGrid">
+                    <article aria-label="UI Design Desktop" class="derechaGrid">
                         <figure>
                             <a href="#"><img src="Imagenes/desktopSignUp.jpg" alt="UI Design"></a>
                         </figure>
@@ -311,7 +312,7 @@
                             </div>
                         </div>
                     </article>
-                    <article class="izquierdaGrid">
+                    <article aria-label="IU Design Developers" class="izquierdaGrid">
                         <figure>
                             <a href="#"><img src="Imagenes/developersWorkingHard.jpg" alt="UI Design"></a>
                         </figure>
@@ -325,7 +326,7 @@
                             </div>
                         </div>
                     </article>
-                    <article class="derechaGrid ">
+                    <article aria-label="Application" class="derechaGrid ">
                         <figure>
                             <a href="#"><img src="Imagenes/coinViewCrypto.jpg" alt="Marketing"></a>
                         </figure>
@@ -357,7 +358,7 @@
                 <h2 class="tituloMedio2"><strong>Our insights</strong> & creative ideas</h2>
             </div>
             <div id="gridNoticias" class="espacioArriba">
-                <article id="thomas" class="noticias">
+                <article aria-label="articulo Thomas" id="thomas" class="noticias">
                     <h3 class="tituloNoticia">A simple SEO audit guide for your online business and website</h3>
                     <p>What's an SEO audit, what does it include, and what should you expect when
                         outsourcing this task?
@@ -375,7 +376,7 @@
                         <a href="#"><img src="Imagenes/flechaVerdeDerecha.png" alt="FlechaDerecha"></a>
                     </div>
                 </article>
-                <article id="stella" class="noticias">
+                <article aria-label="articulo Stella" id="stella" class="noticias">
                     <h3 class="tituloNoticia soloFlechaGris">The five commandments of SEO and JavaScript for beginners
                     </h3>
                     <div class="flexNoticias">
@@ -391,7 +392,7 @@
                         <a href="#"><img src="Imagenes/flechaDerechaGris.JPG" alt="FlechaDerecha"></a>
                     </div>
                 </article>
-                <article id="monica" class="noticias">
+                <article aria-label="articulo Monica" id="monica" class="noticias">
                     <h3 class="tituloNoticia soloFlechaGris">Digital influence: Web design's impact on marketing
                         strategy</h3>
                     <div class="flexNoticias">
@@ -407,7 +408,7 @@
                         <a href="#"><img src="Imagenes/flechaDerechaGris.JPG" alt="FlechaDerecha"></a>
                     </div>
                 </article>
-                <article id="ernest" class="noticias" style="opacity: 0.4;">
+                <article aria-label="noticia Ernest" id="ernest" class="noticias" style="opacity: 0.4;">
                     <h3 class="tituloNoticia soloFlechaGris">Mobile app UI design trips and trends to follow in 2020
                     </h3>
                     <div class="flexNoticias">
@@ -432,7 +433,7 @@
             <section>
                 <h2 class="tituloInvisible">Titulo vacio</h2>
                 <div id="gridFinal">
-                    <article>
+                    <article aria-label="footerPrelude">
                         <div class="titulo">
                             <a href="#"><img class="logoPrincipal" src="Imagenes/Logos/logoPrelude.png"
                                     alt="LogoPrelude"></a>
@@ -450,7 +451,7 @@
                                     alt="Instagram"></a>
                         </div>
                     </article>
-                    <article>
+                    <article aria-label="About">
                         <h3 style="margin-left: 40px; font-weight: 400;">About</h3>
                         <ul>
                             <li><a class="verde" id="bordeVerde" href="#">Services</a></li>
@@ -459,7 +460,7 @@
                             <li><a href="#">Blog</a></li>
                         </ul>
                     </article>
-                    <article>
+                    <article aria-label="Products">
                         <h3 style="margin-left: 40px; font-weight: 400;">Products</h3>
                         <ul>
                             <li><a href="#">Plataform</a></li>
@@ -468,7 +469,7 @@
                             <li><a href="#">Pircing</a></li>
                         </ul>
                     </article>
-                    <article>
+                    <article aria-label="Resources">
                         <h3 style="margin-left: 40px; font-weight: 400;">Resources</h3>
                         <ul>
                             <li><a href="#">Training</a></li>
@@ -477,7 +478,7 @@
                             <li><a href="#">Guides</a></li>
                         </ul>
                     </article>
-                    <article>
+                    <article aria-label="Offices">
                         <h3 style="font-weight: 400;">Offices</h3>
                         <div class="espacioFooter footer-dir">
                             <span class="gris">New York. 112 W 34th St,</span>

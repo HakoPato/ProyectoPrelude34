@@ -2,9 +2,9 @@
 :root {
     --colorFondo: rgb(247, 244, 251);
     --marginTop: 80px;
-    --colorMorado: #7633f1;
-    --colorGris: grey;
-    --colorVerde: #01d85f;
+    --colorMorado: #4D18AF;
+    --colorGris: #434343;
+    --colorVerde: #1CCD6A;
 }
 
 body {
@@ -40,7 +40,7 @@ figure:hover img {
 }
 
 button:hover {
-    background-color: var(--colorVerde);
+    background-color: #1CCD6A;
 }
 
 .tituloMedio::first-letter {
@@ -126,8 +126,8 @@ nav {
     text-decoration: none;
     color: white;
     border-radius: 6px;
-    background-color: rgb(1, 216, 95);
-    padding: 12px 25px;
+    background-color: #045829;
+    padding: 12px 20px;
 }
 
 .circuloVerde {
@@ -147,7 +147,7 @@ nav {
 }
 
 .linea:focus {
-    background-color: var(--colorVerde);
+    background-color: #1CCD6A;
 }
 
 #fixed {
@@ -157,7 +157,7 @@ nav {
     font-size: 12px;
     border-radius: 50%;
     text-align: center;
-    background-color: var(--colorVerde);
+    background-color: #0C582E;
     color: white;
     right: -40px;
     top: -10px; 
@@ -188,7 +188,7 @@ a {
 }
 
 .verde {
-    color: var(--colorVerde);
+    color: #045829;
 }
 
 /* 2º Section */
@@ -531,7 +531,7 @@ div>.tituloSinMargen {
     text-align: justify;
     margin: 15px 10px;
     font-size: 16px;
-    color: gray;
+    color: #232222;
 }
 
 /* Footer */
@@ -586,7 +586,7 @@ a:visited {
 }
 
 .espacioFooter span:last-child {
-    color: var(--colorVerde);
+    color: #045829;
 }
 
 .footer-dir span {
